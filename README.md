@@ -32,7 +32,7 @@ Example: Let M be an instance of `interval_map<int,char>` where
 
 The representation in the std::map must be canonical, that is, consecutive map entries must not contain the same value:</br>
 ..., (3,'A'), (5,'A'), ...</br>
-is not allowed. Likewise, the first entry in m_map must not contain the same value as m_valBegin. Initially, the whole range of K is associated with a given initial value, passed to the constructor of the `interval_map<K,V>` data structure.
+is not allowed. Likewise, the first entry in m_map must not contain the same value as m_valBegin. Initially, the whole range of K is associated with a given initial value, passed to the constructor of the `interval_map<K, V>` data structure.
 
 <b>Key type K</b>
 
