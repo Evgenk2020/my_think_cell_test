@@ -1,3 +1,27 @@
+<p align="center">
+  <a href="https://github.com/Evgenk2020/my_think_cell_test/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/Evgenk2020/my_think_cell_test" alt="license">
+  </a>
+  <a href="https://github.com/Evgenk2020/my_think_cell_test/commits">
+    <img src="https://img.shields.io/github/last-commit/Evgenk2020/my_think_cell_test" alt="last commit">
+  </a>
+  <a href="https://github.com/Evgenk2020/my_think_cell_test">
+    <img src="https://img.shields.io/github/repo-size/Evgenk2020/my_think_cell_test" alt="repo size">
+  </a>
+  <a href="https://github.com/Evgenk2020/my_think_cell_test/stargazers">
+    <img src="https://img.shields.io/github/stars/Evgenk2020/my_think_cell_test" alt="stars">
+  </a>
+  <a href="https://github.com/Evgenk2020/my_think_cell_test/network/members">
+    <img src="https://img.shields.io/github/forks/Evgenk2020/my_think_cell_test" alt="forks">
+  </a>
+  <a href="https://github.com/Evgenk2020/my_think_cell_test">
+    <img src="https://img.shields.io/github/languages/top/Evgenk2020/my_think_cell_test" alt="top language">
+  </a>
+  <a href="https://github.com/Evgenk2020/my_think_cell_test/releases">
+    <img src="https://img.shields.io/github/v/release/Evgenk2020/my_think_cell_test" alt="latest release">
+  </a>
+</p>
+
 # My think-cell test
 
 <b>This is the Think-Cell test to implement interval_map class in C++</b>
