@@ -99,7 +99,6 @@ public:
 // check for correct work of the interval map
 int main()
 {
-    
     // int example
     interval_map<int, char> b('Q');
     b.assign(4, 6, 'f');
