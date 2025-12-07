@@ -1,0 +1,7 @@
+#!/bin/bash
+
+curr_dir=$0
+curr_dir=$(realpath $curr_dir)
+curr_dir=$(dirname $curr_dir)
+
+exec $curr_dir/bin/think-cell

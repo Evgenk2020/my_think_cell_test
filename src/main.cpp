@@ -11,10 +11,7 @@ private:
 
 public:
     // constructor associates whole range of K with val
-    interval_map(V const &val)
-        : m_valBegin(val)
-    {
-    }
+    interval_map(V const &val) : m_valBegin(val) {}
 
     // Assign value val to interval [keyBegin, keyEnd].
     // Overwrite previous values in this interval.
@@ -26,6 +23,7 @@ public:
     void assign(K const &keyBegin, K const &keyEnd, V const &val)
     {
         // INSERT YOUR SOLUTION HERE
+        // ****************************
         using map_iterator = std::map<K, V>::iterator;
 
         if (!(keyBegin < keyEnd))
@@ -72,6 +70,7 @@ public:
         {
             m_map.insert(it_begin, {keyEnd, symbol});
         }
+        // ****************************
     }
 
     // look-up of the value associated with key
@@ -100,8 +99,11 @@ public:
 // check for correct work of the interval map
 int main()
 {
+    
+    // int example
     interval_map<int, char> b('Q');
     b.assign(4, 6, 'f');
+
     for (int i = 0; i < 10; i++)
     {
         std::cout << "first interval: " << i << "--" << b[i] << std::endl;
@@ -109,8 +111,10 @@ int main()
 
     std::cout << "--------------------------------" << std::endl;
 
+    // char example
     interval_map<char, int> m(3);
     m.assign('e', 'k', 135);
+
     for (char j = 'a'; j <= 'z'; j++)
     {
         std::cout << "second interval: " << j << "--" << m[j] << std::endl;
@@ -118,8 +122,10 @@ int main()
 
     std::cout << "--------------------------------" << std::endl;
 
+    // float example
     interval_map<float, char> r('X');
     r.assign(1.3, 6.8, 'w');
+    
     for (int i = 0; i < 10; i++)
     {
         std::cout << "third interval: " << i << "--" << r[i] << std::endl;

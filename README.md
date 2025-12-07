@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <a href="https://github.com/Evgenk2020/my_think_cell_test/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/Evgenk2020/my_think_cell_test" alt="license">
   </a>
