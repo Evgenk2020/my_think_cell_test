@@ -1,7 +1,6 @@
 #!/bin/bash
 
 curr=$(dirname $(realpath $0))
-
 bld_target=$curr/build
 
 #rm -rd $bld_target
