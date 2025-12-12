@@ -8,19 +8,3 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/build/bin)
 project(think-cell VERSION 0.0.1 LANGUAGES CXX)
 
 add_executable(${PROJECT_NAME} ${CMAKE_SOURCE_DIR}/src/main.cpp)
-
-install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION bin)
-install(FILES ${CMAKE_SOURCE_DIR}/sources/think-cell DESTINATION "."
-                        PERMISSIONS
-                        OWNER_READ OWNER_WRITE OWNER_EXECUTE
-                        GROUP_READ GROUP_EXECUTE 
-                        WORLD_READ WORLD_EXECUTE)
-
-set(CPACK_PACKAGE_NAME ${PROJECT_NAME})
-set(CPACK_PACKAGE_VERSION "${PROJECT_VERSION}")
-set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Think-cell test")
-
-set(CPACK_GENERATOR "TGZ")
-set(CPACK_RPM_PACKAGE_RELOCATABLE "TRUE")
-
-include(CPack)
