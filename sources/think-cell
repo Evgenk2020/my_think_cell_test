@@ -1,8 +1,6 @@
 #!/bin/bash
 
-curr_dir=$0
-curr_dir=$(realpath $curr_dir)
-curr_dir=$(dirname $curr_dir)
+curr=$(dirname $(realpath $0))
 
 ./bin/think-cell
 
