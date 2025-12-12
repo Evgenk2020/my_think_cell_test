@@ -1,7 +1,5 @@
 #!/bin/bash
 
-curr=$(dirname $(realpath $0))
-
 ./bin/think-cell
 
 exec $SHELL
