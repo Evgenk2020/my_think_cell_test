@@ -18,6 +18,6 @@ cmake ..
 make
 
 cd ../
-cp $curr/sources/think-cell $curr/build
+cp $curr/sources/think-cell $bld_target
 
 exec $SHELL
